@@ -1,5 +1,6 @@
 if SHIELD_SCHIST
 
-CONFIG_ZMK_KEYBOARD_NAME="Schist"
+config ZMK_KEYBOARD_NAME
+    default "Schist"
 
 endif
