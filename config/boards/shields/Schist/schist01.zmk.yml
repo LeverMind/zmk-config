@@ -1,6 +1,6 @@
 file format: "1"
-id: Schist01
-name: Schist01
+id: schist01
+name: schist01
 type: shield
 url: https://github.com/zmkfirmware/zmk/
 requires: [pro_micro]

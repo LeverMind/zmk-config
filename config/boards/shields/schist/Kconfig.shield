@@ -1,2 +1,2 @@
 config SHIELD_SCHIST01
-    def_bool $(shields_list_contains, Schist01)
+    def_bool $(shields_list_contains, schist01)
