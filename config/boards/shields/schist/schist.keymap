@@ -13,6 +13,7 @@
                 &kp I   &kp O   &kp P   &kp A   &kp S   &kp D   &kp F
                 &kp G   &kp H   &kp J   &kp K   &kp L   &kp Z   &kp X   &kp C
                 &kp V   &kp B   &kp N   &kp M   &kp KP_1   &kp KP_2   &kp KP_3   &kp KP_4
+            >;
         };
     };
 };
