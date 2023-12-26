@@ -1,0 +1,13 @@
+file format: "1"
+id: schist
+name: Schist
+type: shield
+url: https://github.com/zmkfirmware/zmk/
+requires: [pro_micro]
+# exposes: [i2c_oled]
+features:
+  - keys
+  - pointer
+# siblings:
+#  - schist_left
+#  - schist_right
