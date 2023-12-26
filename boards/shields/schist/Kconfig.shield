@@ -1,0 +1,2 @@
+config SHIELD_SCHIST
+    def_bool $(shields_list_contains, schist)
