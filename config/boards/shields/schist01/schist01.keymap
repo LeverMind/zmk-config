@@ -23,6 +23,6 @@
                 &kp EQUAL   &kp N1   &kp N2      &kp N3    &kp J   &trans   &kp SEMI  &kp ESC
                 &kp MINUS   &kp N0   &kp COMMA   &kp DOT   &kp K   &trans   &kp SLASH &kp LGUI
             >;
-        }
+        };
     };
 };
