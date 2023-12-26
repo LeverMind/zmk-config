@@ -12,7 +12,7 @@
                 &kp P   &kp F   &kp M   &kp U   &kp Y
                 &kp R   &kp S   &kp N   &kp I   &kp W   &kp V   &kp BACKSPACE
                 &kp O   &kp A   &kp T   &kp E   &kp G   &kp X   &kp SPACE   &kp J
-                &kp C   &kp D   &kp L   &kp H   &kp K   &kp SHIFT   &kp ENTER   &kp Z
+                &kp C   &kp D   &kp L   &kp H   &kp K   &kp LSHIFT   &kp RET   &kp Z
             >;
         };
     };
