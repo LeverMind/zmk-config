@@ -1,4 +1,6 @@
 #include <dt-bindings/zmk/matrix_transform.h>
+#include <drivers/zephyr/dts/bindings/sensor/cirque,pinnacle-spi.yaml>
+#include <drivers/zephyr/dts/bindings/sensor/cirque,pinnacle-common.yaml>
 
 /{
     chosen {
@@ -40,5 +42,15 @@
             RC(3,0) RC(3,1) RC(3,2) RC(3,3) RC(3,4) RC(3,5) RC(3,6) RC(3,7)
             RC(4,0) RC(4,1) RC(4,2) RC(4,3) RC(4,4) RC(4,5) RC(4,6) RC(4,7)
         >;
+    };
+     trackpad0 {
+        compatible = "cirque,pinnacle";
+        reg = <0>;
+        label = "Cirque Trackpad";
+        spi-max-frequency = <10000000>;
+        dr-gpios = <&gpio0 6 GPIO_ACTIVE_HIGH>;
+        invert-x;
+        sleep;
+        /* no-taps; */
     };
 };
