@@ -1,6 +1,5 @@
 #include <dt-bindings/zmk/matrix_transform.h>
-#include <drivers/zephyr/dts/bindings/sensor/cirque,pinnacle-spi.yaml>
-#include <drivers/zephyr/dts/bindings/sensor/cirque,pinnacle-common.yaml>
+
 
 /{
     chosen {
