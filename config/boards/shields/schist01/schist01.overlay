@@ -42,6 +42,7 @@
             RC(4,0) RC(4,1) RC(4,2) RC(4,3) RC(4,4) RC(4,5) RC(4,6) RC(4,7)
         >;
     };
+    /*
      trackpad0 {
         compatible = "cirque,pinnacle";
         reg = <0>;
@@ -52,8 +53,9 @@
         sleep;
         /* no-taps; */
     };
+    */
     // pinnacletest.overlay
- /*&spi {
+ &spi {
     status = "okay";
     cs-gpios = <&gpio0 6 GPIO_ACTIVE_LOW>;
     trackpad@0 {
@@ -74,5 +76,4 @@ CONFIG_SENSOR=y
 CONFIG_PINNACLE=y
 CONFIG_PINNACLE_TRIGGER_OWN_THREAD=y
 CONFIG_ZMK_MOUSE=y
-*/
 };
