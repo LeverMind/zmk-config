@@ -45,7 +45,7 @@
 
  
 };
-&spi3 {
+&pro_micro_spi {
     status = "okay";
     cs-gpios = <&gpio1 6 GPIO_ACTIVE_LOW>;
     trackpad@0 {
