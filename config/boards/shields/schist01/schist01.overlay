@@ -1,5 +1,5 @@
 #include <dt-bindings/zmk/matrix_transform.h>
-
+#include <input_pinnacle.h>
 
 /{
     chosen {
@@ -47,9 +47,10 @@
 };
 &pro_micro_spi {
     status = "okay";
-    cs-gpios = <&gpio1 6 GPIO_ACTIVE_LOW>;
-    trackpad@0 {
-        compatible = "cirque,pinnacle";
+    cs-gpios = <&gpio1 4 GPIO_ACTIVE_LOW>;
+
+    cirque_trackpad: cirque-trackpad@0 {
+        compatible = "cirque,trackpad";
         status = "okay";
         label = "trackpad";
         reg = <0>;
