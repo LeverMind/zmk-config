@@ -1,0 +1,3 @@
+[submodule "johanson-cirque-input-module"]
+	path = cirque-input-module
+	url = git@github.com:petejohanson/cirque-input-module.git
