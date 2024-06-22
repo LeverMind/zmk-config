@@ -63,7 +63,7 @@
     status = "okay";
 };
 
-pinctrl {
+/pinctrl {
     spi1_default: spi1_default {
         group1 {
             psels = <NRF_PSEL(SPIM_SCK, 1, 6)>,
