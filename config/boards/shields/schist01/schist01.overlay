@@ -41,6 +41,7 @@
             RC(4,0) RC(4,1) RC(4,2) RC(4,3) RC(4,4) RC(4,5) RC(4,6) RC(4,7)
         >;
     };
+};
 &pro_micro_spi {
     status = "okay";
     cs-gpios = <&gpio1 4 GPIO_ACTIVE_LOW>;
@@ -70,5 +71,4 @@ pinctrl {
                     <NRF_PSEL(SPIM_MISO, 1, 4)>;
         };
     };
-};
 };
