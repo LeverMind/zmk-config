@@ -8,29 +8,29 @@
 
         default_layer {
             bindings = <
-                &kp W       &kp B 
-                &kp P       &kp F    &kp M      &kp U      &mo 1
-                &kp R       &kp S    &kp N      &kp I      &mo 2    &kp TAB      &kp BACKSPACE
-                &kp O       &kp A    &kp T      &kp E      &kp G    &mo 1        &kp SPACE    &kp LCTRL
-                &kp C       &kp D    &kp L      &kp H      &kp Y    &kp LSHIFT   &kp RET      &kp LALT
+                &kp W              &kp B 
+                &kp P     &kp F    &kp M      &kp U     &mo 1
+                &kp R     &kp S    &kp N      &kp I     &mo 2    &kp TAB     &kp BACKSPACE
+                &kp O     &kp A    &kp T      &kp E     &kp G    &mo 1       &kp SPACE    &kp LCTRL
+                &kp C     &kp D    &kp L      &kp H     &kp Y    &kp LSHIFT  &kp RET      &kp LALT
             >;
         };
         layer1 {
             bindings = <
-                &kp SEMI             &kp V 
-                &kp SLASH   &kp N7   &kp N8      &kp N9    &kp Z
-                &kp SQT     &kp N4   &kp N5      &kp N6    &kp X    &mk C_PP     &mkp RCLICK
-                &kp MINUS   &kp N1   &kp N2      &kp N3    &kp J    &trans       &mkp LCLK   &kp ESC
-                &kp Q       &kp N0   &kp COMMA   &kp DOT   &kp K    &trans       &PSCRN      &mkp MCLK
+                &kp SEMI           &kp V 
+                &kp SLASH &kp N7   &kp N8     &kp N9    &kp Z
+                &kp SQT   &kp N4   &kp N5     &kp N6    &kp X    &mk C_PP    &mkp RCLICK
+                &kp MINUS &kp N1   &kp N2     &kp N3    &kp J    &trans      &mkp LCLK   &kp ESC
+                &kp Q     &kp N0   &kp COMMA  &kp DOT   &kp K    &trans      &PSCRN      &mkp MCLK
             >;
         };
         layer2 {
             bindings = <
                 &trans               &trans  
-                &trans      &trans   &trans     &trans     &trans
-                &trans      &trans   &trans     &trans     &trans   &trans      &bt BT_CLR
-                &kp EQUAL   &trans   &trans     &trans     &trans   &trans      &trans       &kp DEL
-                &trans      &trans   &trans     &trans     &trans   &trans      &bt BT_NXT   &kp LGUI
+                &trans    &trans   &trans     &trans    &trans
+                &trans    &trans   &trans     &trans    &trans   &trans     &bt BT_CLR
+                &kp EQUAL &trans   &trans     &trans    &trans   &trans     &trans       &kp DEL
+                &trans    &trans   &trans     &trans    &trans   &trans     &bt BT_NXT   &kp LGUI
             >;
         };
     };
