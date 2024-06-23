@@ -45,17 +45,17 @@
 &pinctrl {
     spi0_default: spi0_default {
         group1 {
-            psels = <&gpio1 6 GPIO_ACTIVE_LOW>,
-                <&gpio0 6 GPIO_ACTIVE_LOW>,
-                <&gpio1 4 GPIO_ACTIVE_LOW>;
+            psels = <NRF_PSEL(&gpio1 6 GPIO_ACTIVE_LOW)>,
+                <NRF_PSEL(&gpio0 6 GPIO_ACTIVE_LOW)>,
+                <NRF_PSEL(&gpio1 4 GPIO_ACTIVE_LOW)>;
         };
     };
 
     spi0_sleep: spi0_sleep {
         group1 {
-            psels = <&gpio1 6 GPIO_ACTIVE_LOW>,
-                <&gpio0 6 GPIO_ACTIVE_LOW>,
-                <&gpio1 4 GPIO_ACTIVE_LOW>;
+            psels = <NRF_PSEL(&gpio1 6 GPIO_ACTIVE_LOW)>,
+                <NRF_PSEL(&gpio0 6 GPIO_ACTIVE_LOW)>,
+                <NRF_PSEL(&gpio1 4 GPIO_ACTIVE_LOW)>;
             low-power-enable;
         };
     };
