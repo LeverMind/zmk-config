@@ -20,17 +20,17 @@
                 &kp SEMI           &kp V 
                 &kp SLASH &kp N7   &kp N8     &kp N9    &kp Z
                 &kp SQT   &kp N4   &kp N5     &kp N6    &kp X    &mk C_PP    &mkp RCLICK
-                &kp MINUS &kp N1   &kp N2     &kp N3    &kp J    &trans      &mkp LCLK   &kp ESC
-                &kp Q     &kp N0   &kp COMMA  &kp DOT   &kp K    &trans      &PSCRN      &mkp MCLK
+                &kp MINUS &kp N1   &kp N2     &kp N3    &kp J    &trans      &mkp LCLK    &kp ESC
+                &kp Q     &kp N0   &kp COMMA  &kp DOT   &kp K    &trans      &kp PSCRN    &mkp MCLK
             >;
         };
         layer2 {
             bindings = <
-                &trans               &trans  
+                &trans             &trans  
                 &trans    &trans   &trans     &trans    &trans
                 &trans    &trans   &trans     &trans    &trans   &trans     &bt BT_CLR
-                &kp EQUAL &trans   &trans     &trans    &trans   &trans     &trans       &kp DEL
-                &trans    &trans   &trans     &trans    &trans   &trans     &bt BT_NXT   &kp LGUI
+                &kp EQUAL &trans   &trans     &trans    &trans   &trans     &trans        &kp DEL
+                &trans    &trans   &trans     &trans    &trans   &trans     &bt BT_NXT    &kp LGUI
             >;
         };
     };
